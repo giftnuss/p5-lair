@@ -1,0 +1,8 @@
+*~
+blib/
+_build/
+MYMETA.yml
+MYMETA.json
+MANIFEST.SKIP.bak
+Build
+cover_db/
