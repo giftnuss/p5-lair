@@ -14,8 +14,8 @@ my $builder = Module::Build->new(
         'Badger' => '0.08',
         'Class::Trigger' => '0.14',
         'Hash::MultiValue' => '0.10',
-	'MIME::Types' => '1.34',
-        'Package::Subroutine' => '0.21',
+        'MIME::Types' => '1.34',
+        'Package::Subroutine' => '>0.21.000',
         'Plack' => 0,
         'HTTP::Status' => 0
     },
@@ -26,7 +26,7 @@ my $builder = Module::Build->new(
     create_makefile_pl  => 'traditional',
     meta_add => {
         resources => {
-            repository => 'git://github.com/giftnuss/Humbug',
+            repository => 'git://github.com/giftnuss/p5-lair',
         }
     }
 );
