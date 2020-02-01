@@ -3,6 +3,7 @@ blib/
 _build/
 MYMETA.yml
 MYMETA.json
+MYMETA.json.lock
 MANIFEST.SKIP.bak
 Build
 cover_db/
